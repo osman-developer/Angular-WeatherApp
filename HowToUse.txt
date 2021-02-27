@@ -1,0 +1,5 @@
+Using the CLI navigate to the folder, then hit 'npm install' make sure to have nodejs and angularCLi intalled on your machine.
+I used openweathermap Api, please register and get your key. After registering please add the key to the Typescript file inside weather-draw component.
+to run the app hit in the CLI 'ng serve'. it will run on the default : localhost:4200
+
+to configure the port: ng serve --port 4201
