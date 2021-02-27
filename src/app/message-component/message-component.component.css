@@ -1,0 +1,22 @@
+.city {
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.searchContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+i {
+    font-size: 36px;
+}
+
+.mycont {
+    background-color: #039be5;
+}
+
+input {
+    text-align: center;
+}

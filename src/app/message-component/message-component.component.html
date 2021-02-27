@@ -1,0 +1,31 @@
+<div class="container mycont">
+    <div class="row">
+        <div class="col text-center">
+            <nav class="blue darken-2">
+                <div class="nav-wrapper" style="margin-left: 3%;">
+                    <a href="#!" class="brand-logo">
+                        <i class="material-icons" style="color:white">cloud</i> </a>
+                    <h1 style="color: white;">Weather</h1>
+
+                </div>
+            </nav>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col text-center">
+            <div class="col text-center p-4">
+                <label for="example5">
+                    <h2>Search for a location and check the weather</h2><br>
+                </label>
+                <input #searchBox id="search-box" class="form-control" size="30" placeholder="New York City" [(ngModel)]="city" (input)="sendMessage()" />
+                <p class="city"><br>{{city}}</p>
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="container forecastContiner">
+    <div class="row">
+        <div class="col-12">
+            <WeatherComponent style="display: inline-block" *ngFor='let w of weathers.list' [MyWeather]='w'>
+            </WeatherComponent>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+<div class="center" *ngIf="(MyWeather.dt_txt.substring(11, 19)=='00:00:00'); ">
+    <table class='WeatherTable'>
+        <tr>
+            <td class="temp">{{MyWeather.dt_txt.substring(0,10)}}</td>
+        </tr>
+        <tr>
+            <td>
+                <img class='WeatherP' [src]="'http://openweathermap.org/img/wn/'+MyWeather.weather[0].icon +'.png'" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td class="temp">{{MyWeather.weather[0].description}}</td>
+                    </tr>
+                    <tr>
+                        <td class="temp">{{MyWeather.main.temp -273| number : '1.0-1' }} °C</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>
+<!--MyWeather.dt_txt.substring(0,10)==todayDate)
+MyWeather.dt_txt.substring(11, 19)=='00:00:00' !-->

@@ -1,0 +1,31 @@
+.WeatherTable {
+    margin: 15px;
+    border-radius: 5px;
+    background-color: #039be5;
+    height: 300px;
+}
+
+.WeatherP {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 11px;
+    margin: 11px;
+}
+
+.temp {
+    font-size: large;
+    margin-right: 5px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+    width: 200px;
+    align-items: center;
+}
